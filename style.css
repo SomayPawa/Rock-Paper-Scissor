@@ -1,0 +1,92 @@
+*{
+    margin:0px;
+}
+#start{
+    height:60px;
+    background-color: darkslateblue;
+    color:white;
+    text-align: center;
+    
+}
+#second{
+    text-align: center;
+    text-decoration: dashed;
+}
+.imageclass{
+    display:flex;
+    justify-content: center;
+}
+.rock{
+    background-image: url("rock.png");
+    background-size:cover;
+    height:150px;
+    width:255px;
+    margin-top:20px;
+    border-radius:40%;
+}
+.paper{
+    background-image: url("hand.png");
+    background-size:cover;
+    height:150px;
+    width:255px;
+    margin-top:20px;
+    margin-left: 20px;
+    border-radius: 40%;
+}
+.scissors{
+    background-image: url("scissors.png");
+    background-size:cover;
+    height:150px;
+    width:255px;
+    margin-top:20px;
+    margin-left: 20px;
+    border-radius: 40%;
+    margin-bottom:20px;
+}
+.mainpoint{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.points{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+    color:black;
+    font-size: large;
+}
+.turn{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+    font-size: larger;
+}
+#you{
+    margin-bottom: 20px;
+}
+#click{
+    margin-left:680px;
+    margin-top: 120px;
+    height:40px;
+    width:100px;
+    background-color: aqua;
+    color:black;
+}
+#opponent{
+    margin-bottom:20px;
+}
+.selected{
+    display:flex;
+    justify-content: center;
+    margin-top:40px;
+    font-size: xx-large;
+}
+#yo{
+    margin-right:20px;
+}
+#win{
+    text-align: center;
+    margin-top:20px;
+}
